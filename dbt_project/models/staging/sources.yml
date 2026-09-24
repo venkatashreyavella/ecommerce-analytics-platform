@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: raw_clicks
+      - name: raw_users
+      - name: raw_products
+      - name: raw_orders
+  - name: analytics
+    schema: analytics
+    tables:
+      - name: realtime_click_aggregates

@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_realtime_aggregates
+    columns:
+      - name: window_start
+        tests: [not_null]
+      - name: window_end
+        tests: [not_null]
+      - name: event_type
+        tests: [not_null]
+      - name: click_count
+        tests: [not_null]
